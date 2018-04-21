@@ -93,12 +93,6 @@
             </summary>
             <param name="enabled"></param>
         </member>
-        <member name="M:Traffic_Policer.API.Functions.SetTicketReasonsEnabled(System.Boolean)">
-            <summary>
-            Use this only if you don't want the ticket reasons to display while writing a ticket for your plugin. Remember to reactivate this after you're done.
-            /// </summary>
-            <param name="enabled"></param>
-        </member>
         <member name="M:Traffic_Policer.API.Functions.SetPedAlcoholLevel(Rage.Ped,Traffic_Policer.Impairment_Tests.AlcoholLevels)">
             <summary>
             Sets the alcohol level for the ped. Used by Traffic Policer's Breathalyzer. Automatically converts the AlcoholLevel to an appropriate reading depending on the player's personal alcohol limit.
@@ -138,12 +132,6 @@
             </summary>
             <param name="ped"></param>
             <returns></returns>
-        </member>
-        <member name="M:Traffic_Policer.API.Functions.SetAutomaticInsuranceChecksEnabled(System.Boolean)">
-            <summary>
-            Use this only if you don't want the insurance to appear after typing in a licence plate in a custom window. Remember to reactivate this after you're done fetching the input.
-            </summary>
-            <param name="enabled"></param>
         </member>
         <member name="M:Traffic_Policer.Callouts.DrugsRunners.searchForDrugs">
             <summary>
@@ -195,7 +183,7 @@
             Leave it to LSPDFR.
             </summary>
         </member>
-        <member name="M:Traffic_Policer.EntryPoint.mainLoop">
+        <member name="M:Traffic_Policer.TrafficPolicerHandler.mainLoop">
             <summary>
             The main loop of the plugin
             </summary>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Wix xmlns="http://schemas.microsoft.com/wix/2006/wi">
   <?define ALPRPlus_TargetDir=$(var.ALPRPlus.TargetDir)?>
-  <Product Id="*" Name="ALPR+" Language="1033" Version="1.0.2.0" Manufacturer="Stealth22" UpgradeCode="e94840bc-412d-4493-899d-535a23c34644">
+  <Product Id="*" Name="ALPR+" Language="1033" Version="1.1.0.0" Manufacturer="Stealth22" UpgradeCode="e94840bc-412d-4493-899d-535a23c34644">
     <Package InstallerVersion="200" Compressed="yes" InstallScope="perMachine" Platform="x64" />
 
     <MajorUpgrade AllowSameVersionUpgrades="yes" DowngradeErrorMessage="A newer version of [ProductName] is already installed." />

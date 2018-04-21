@@ -1,4 +1,4 @@
-﻿using Stealth.Common.Natives;
+﻿using Rage.Native;
 using Stealth.Plugins.ALPRPlus.Common;
 using System;
 using System.Collections.Generic;
@@ -61,15 +61,15 @@ namespace Stealth.Plugins.ALPRPlus.Core
             {
                 if (soundSet == "")
                 {
-                    Functions.CallByHash(0x67C540AA08E4A6F5, -1, soundName, 0 , 1); //AUDIO::PLAY_SOUND_FRONTEND
+                    NativeFunction.Natives.x67C540AA08E4A6F5(-1, soundName, 0 , 1); //AUDIO::PLAY_SOUND_FRONTEND
                 }
                 else if (soundSet == "ATM_SOUNDS")
                 {
-                    Functions.CallByHash(0x67C540AA08E4A6F5, -1, soundName, soundSet, 1); //AUDIO::PLAY_SOUND_FRONTEND
+                    NativeFunction.Natives.x67C540AA08E4A6F5(-1, soundName, soundSet, 1); //AUDIO::PLAY_SOUND_FRONTEND
                 }
                 else
                 {
-                    Functions.CallByHash(0x7FF4944CC209192D, -1, soundName, soundSet, 0, 0, 0); //AUDIO::PLAY_SOUND
+                    NativeFunction.Natives.x7FF4944CC209192D(-1, soundName, soundSet, 0, 0, 0); //AUDIO::PLAY_SOUND
                 }
             }
             catch (Exception e)

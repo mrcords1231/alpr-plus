@@ -36,29 +36,7 @@ namespace Stealth.Plugins.ALPRPlus
                 return;
             }
 
-            if (Globals.IsBeta)
-            {
-                System.Threading.Tasks.Task.Run(async () =>
-                {
-                    string fileSecretUUID = "26cb7dc4-f777-4848-996a-733ebbed9000";
-
-                    bool isBetaKeyValid = await BetaFuncs.IsValidKey(Constants.LCPDFRDownloadID, fileSecretUUID, File.ReadAllText(""));
-
-                    if (isBetaKeyValid)
-                    {
-                        StartPlugin(onDuty);
-                    }
-                    else
-                    {
-                        Logger.LogTrivial("ERROR: Beta key authorization failed!");
-                        Funcs.DisplayNotification("BETA KEY CHECK", "~r~AUTHENTICATION FAILED!");
-                    }
-                });
-            }
-            else
-            {
-                StartPlugin(onDuty);
-            }
+            StartPlugin(onDuty);
         }
 
         private static void StartPlugin(bool onDuty)

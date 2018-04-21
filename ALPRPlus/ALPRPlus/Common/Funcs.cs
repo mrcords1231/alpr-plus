@@ -19,7 +19,7 @@ namespace Stealth.Plugins.ALPRPlus.Common
 
         public static void CheckForUpdates()
         {
-            Stealth.Common.Functions.UpdateFuncs.CheckForUpdates(Constants.LCPDFRDownloadID, Globals.Version, Globals.VersionInfo.ProductName, true, false);
+            Stealth.Common.Functions.UpdateFuncs.CheckForUpdates(Constants.LCPDFRDownloadID, Globals.Version, Globals.VersionInfo.ProductName, true);
         }
 
         public static bool IsCommonDLLValid()
@@ -81,7 +81,7 @@ namespace Stealth.Plugins.ALPRPlus.Common
 
         internal static bool IsTrafficPolicerRunning()
         {
-            return IsLSPDFRPluginRunning("Traffic Policer", new Version(6, 9, 8, 1));
+            return IsLSPDFRPluginRunning("Traffic Policer", new Version(6, 14, 4, 2));
         }
 
         internal static bool IsLSPDFRPluginRunning(string pName, Version pMinVersion = null)

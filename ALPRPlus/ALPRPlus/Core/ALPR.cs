@@ -674,7 +674,7 @@ namespace Stealth.Plugins.ALPRPlus.Core
                 else
                     e = Globals.PlayerPed;
 
-                bool los = (bool)Stealth.Common.Natives.Functions.CallByHash(0xFCDFF7B72D23A1AC, typeof(bool), e, veh, 17); //HAS_ENTITY_CLEAR_LOS_TO_ENTITY
+                bool los = Rage.Native.NativeFunction.Natives.xFCDFF7B72D23A1AC<bool>(e, veh, 17); //HAS_ENTITY_CLEAR_LOS_TO_ENTITY
 
                 //Logger.LogTrivialDebug("FOV check returning " + los.ToString());
                 return los;
@@ -748,7 +748,7 @@ namespace Stealth.Plugins.ALPRPlus.Core
 
                 try
                 {
-                    isInFOV = Rage.Native.NativeFunction.CallByHash<bool>(0x51210CED3DA1C78A, veh, originPoint.X, originPoint.Y, originPoint.Z,
+                    isInFOV = Rage.Native.NativeFunction.Natives.x51210CED3DA1C78A<bool>(veh, originPoint.X, originPoint.Y, originPoint.Z,
                     edgePoint.X, edgePoint.Y, edgePoint.Z, camFOV, 0, 1, 0); //IS_ENTITY_IN_ANGLED_AREA
                 }
                 catch
