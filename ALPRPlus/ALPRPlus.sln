@@ -5,8 +5,6 @@ VisualStudioVersion = 15.0.26228.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ALPRPlus", "ALPRPlus\ALPRPlus.csproj", "{A674DECD-3AD9-4803-8357-F1B092FDEDA4}"
 EndProject
-Project("{930C7802-8A8C-48F9-8165-68863BCCD9DD}") = "ALPRPlus Setup", "ALPR Setup\ALPRPlus Setup.wixproj", "{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -38,32 +36,11 @@ Global
 		{A674DECD-3AD9-4803-8357-F1B092FDEDA4}.Release|x64.Build.0 = Release|x64
 		{A674DECD-3AD9-4803-8357-F1B092FDEDA4}.Release|x86.ActiveCfg = Release|Any CPU
 		{A674DECD-3AD9-4803-8357-F1B092FDEDA4}.Release|x86.Build.0 = Release|Any CPU
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.Debug|Any CPU.ActiveCfg = Debug|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.Debug|x64.ActiveCfg = Debug|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.Debug|x86.ActiveCfg = Debug|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.QA|Any CPU.ActiveCfg = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.QA|Any CPU.Build.0 = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.QA|x64.ActiveCfg = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.QA|x86.ActiveCfg = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.QA|x86.Build.0 = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.Release|Any CPU.ActiveCfg = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.Release|x64.ActiveCfg = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.Release|x64.Build.0 = Release|x64
-		{FF9ED208-661A-4A2B-9744-BBA3CC8B57F4}.Release|x86.ActiveCfg = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 3
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://stealth22pd.visualstudio.com/
-		SccLocalPath0 = .
-		SccProjectUniqueName1 = ALPRPlus\\ALPRPlus.csproj
-		SccProjectName1 = ALPRPlus
-		SccLocalPath1 = ALPRPlus
-		SccProjectUniqueName2 = ALPR\u0020Setup\\ALPRPlus\u0020Setup.wixproj
-		SccProjectName2 = ALPR\u0020Setup
-		SccLocalPath2 = ALPR\u0020Setup
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A6B23A3F-2129-4570-B2BA-666F190BAF7C}
 	EndGlobalSection
 EndGlobal
