@@ -1,0 +1,17 @@
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\obj\x64\Debug\ALPRPlus.csproj.AssemblyReference.cache
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\obj\x64\Debug\ALPRPlus.csproj.CoreCompileInputs.cache
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\ALPRPlus_README.txt
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\ALPRPlus.ini
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\ALPRPlus.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\ALPRPlus.pdb
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\LSPD First Response.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\RagePluginHook.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\Stealth.Common.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\Traffic Policer.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\Gwen.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\RagePluginHook.xml
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\bin\x64\Debug\Traffic Policer.xml
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\obj\x64\Debug\ALPRPlus.csproj.CopyComplete
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\obj\x64\Debug\ALPRPlus.dll
+C:\Users\mrcor\Desktop\LSPDFR Plugin\ALPRPlus\ALPRPlus\obj\x64\Debug\ALPRPlus.pdb
